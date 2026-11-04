@@ -1,0 +1,25 @@
+# Do not commit dependencies, build artifacts, caches, archives or secrets
+node_modules/
+dist/
+target/
+.toolchains/
+.cache/
+*.log
+*.zip
+*.tar*
+*.AppImage
+*.deb
+*.rpm
+*.exe
+*.dll
+*.so
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+.DS_Store
