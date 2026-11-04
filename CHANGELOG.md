@@ -9,4 +9,4 @@
 - No imported private project documents or local machine paths.
 - Maintainer selected MIT licensing; added the standard `LICENSE` file and aligned README/CONTRIBUTING references.
 
-This is a release candidate **prepared for maintainer approval**. It has **not** been committed or published to the public GitHub repository.
+The initial documentation has been committed and published to the public GitHub repository. The first tagged release, v1.0.0, is pending.
