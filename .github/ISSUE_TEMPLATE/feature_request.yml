@@ -1,0 +1,16 @@
+name: Improvement / Amélioration
+description: Suggest safer documentation, diagnostic steps or cross-distro observations.
+title: "[Suggestion] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal / Proposition
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or references / Preuves ou références
+      description: Please share only public, non-sensitive information.
