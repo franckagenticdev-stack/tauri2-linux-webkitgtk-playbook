@@ -1,0 +1,51 @@
+name: Bug report / Rapport de bogue
+description: Share a reproducible Tauri 2/Linux issue without personal or confidential information.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please redact usernames, tokens, private paths and logs before posting. Do not paste secrets.
+  - type: input
+    id: environment
+    attributes:
+      label: OS and version / Système et version
+      placeholder: "e.g. Ubuntu 24.04, X11/Wayland"
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Tauri / Rust / WebKitGTK versions
+      placeholder: "tauri 2.x, rustc x.y, webkit2gtk-4.1 x.y"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / Étapes de reproduction
+    validations:
+      required: true
+  - type: textarea
+    id: expected_actual
+    attributes:
+      label: Expected and actual behavior / Attendu et observé
+    validations:
+      required: true
+  - type: dropdown
+    id: isolated_cache
+    attributes:
+      label: Isolated XDG cache test
+      options:
+        - Not tried / Non essayé
+        - Rendering restored / Affichage rétabli
+        - Still blank / Toujours blanc
+        - Not applicable / Non applicable
+    validations:
+      required: true
+  - type: textarea
+    id: safe_logs
+    attributes:
+      label: Sanitized logs / Journaux anonymisés (optional)
+      description: Remove usernames, home paths, IPs, tokens and internal repositories.
