@@ -23,6 +23,17 @@ Guide de diagnostic reproductible pour **Tauri 2 + Rust + React / TypeScript + V
 4. Adapter le [lanceur d'exemple](examples/launch-with-isolated-xdg-cache.sh) à votre application.
 5. Ouvrir une [Issue](https://github.com/franckagenticdev-stack/tauri2-linux-webkitgtk-playbook/issues/new/choose) si le défaut persiste ou pour confirmer une amélioration, sans y inclure de données privées.
 
+## Guides complémentaires pour les développeurs
+
+En complément du dépannage WebKitGTK, ces guides capitalisent des enseignements issus d'un environnement de développement Linux/Tauri contrôlé :
+
+- [Dépendances npm et Cargo hors ligne](docs/offline-dependencies.fr.md)
+- [Dépendances reproductibles et builds autonomes](docs/reproducible-builds.fr.md)
+- [Tests React, Tauri IPC et Rust](docs/testing.fr.md)
+- [Compatibilité et niveaux de preuve](docs/compatibility.fr.md)
+
+Chaque guide distingue les résultats observés, les procédures génériques et les points non certifiés. Les commandes présentées sont documentaires et ne s'exécutent pas automatiquement.
+
 ## Environnement observé (et non exigence minimale)
 
 - Zorin OS 18.1, base Ubuntu 24.04 (`noble`).
